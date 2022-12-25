@@ -28,12 +28,6 @@ jobs:
           --health-retries 5
     steps:
     - uses: actions/checkout@v3
-    
-    - name: Set up golang-migrate
-      run: |
-        curl -L https://github.com/golang-migrate/migrate/releases/download/$version/migrate.$platform-amd64.tar.gz | tar xvz
-        sudo mv migrate.linux-amd64/usr/bin/
-        which migrate
 
     - name: Set up Go
       uses: actions/setup-go@v3
