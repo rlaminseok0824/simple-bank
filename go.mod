@@ -4,6 +4,7 @@ go 1.13
 
 require (
 	github.com/gin-gonic/gin v1.8.2
+	github.com/go-playground/validator/v10 v10.11.1
 	github.com/goccy/go-json v0.10.0 // indirect
 	github.com/golang/mock v1.6.0
 	github.com/lib/pq v1.10.7
